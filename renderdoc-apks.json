@@ -1,8 +1,218 @@
 {
   "schemaVersion": 1,
   "minimumVersion": "1.35",
-  "latest": null,
-  "lastCheckedAt": null,
-  "versions": []
+  "latest": "1.44",
+  "lastCheckedAt": "2026-06-03T12:06:23Z",
+  "versions": [
+    {
+      "version": "1.44",
+      "date": "2026-05-01",
+      "tag": "renderdoc-v1.44",
+      "sourceZip": "https://renderdoc.org/stable/1.44/RenderDoc_1.44_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.44",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.44/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "8c34b608dfcf8cbce73ddf8120b2a4e0cd79349a71f179c8b00050fdea09340b",
+          "size": 7809775
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.44/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "85eed0c0390f12b8f1a613f68c40310d6fde949f6b136337dfd83e801ee96548",
+          "size": 8562498
+        }
+      }
+    },
+    {
+      "version": "1.43",
+      "date": "2026-02-27",
+      "tag": "renderdoc-v1.43",
+      "sourceZip": "https://renderdoc.org/stable/1.43/RenderDoc_1.43_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.43",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.43/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "2af70dc1effe1206a1f525a603b7cfe2064c2db989685f28247fd8c86070e046",
+          "size": 7734353
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.43/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "a084b164848094fcbee37bc7b3f64bf96ce6348381b68fe3970c8881ede28c31",
+          "size": 8483364
+        }
+      }
+    },
+    {
+      "version": "1.42",
+      "date": "2025-12-19",
+      "tag": "renderdoc-v1.42",
+      "sourceZip": "https://renderdoc.org/stable/1.42/RenderDoc_1.42_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.42",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.42/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "cf9948c0652668f512b62b79e9505610c87afd2971383c46eddb39a987e83ce8",
+          "size": 7677871
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.42/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "0a8d6fb15eefe08712c9def94584fa348eba9c0687807953a20eb8e7c0c9ec27",
+          "size": 8417567
+        }
+      }
+    },
+    {
+      "version": "1.41",
+      "date": "2025-11-05",
+      "tag": "renderdoc-v1.41",
+      "sourceZip": "https://renderdoc.org/stable/1.41/RenderDoc_1.41_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.41",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.41/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "72f79df0f77a221f733912eaafe0b1b8112f8b103413036be5bc95a50f4140c5",
+          "size": 7577121
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.41/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "5d85e3b0bc5d50161b759ac76681091ddd9efb2aa9b6b8d06606301b03d05361",
+          "size": 8306701
+        }
+      }
+    },
+    {
+      "version": "1.40",
+      "date": "2025-09-05",
+      "tag": "renderdoc-v1.40",
+      "sourceZip": "https://renderdoc.org/stable/1.40/RenderDoc_1.40_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.40",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.40/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "9b11a23fa18b0b37a8c785be69fb5c569f475a19f1e80117299461856a96edd9",
+          "size": 7526087
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.40/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "609b25215b7b376c369bbb86b0e93aa44862ff758da198b79261f5b626786c91",
+          "size": 8254679
+        }
+      }
+    },
+    {
+      "version": "1.39",
+      "date": "2025-06-27",
+      "tag": "renderdoc-v1.39",
+      "sourceZip": "https://renderdoc.org/stable/1.39/RenderDoc_1.39_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.39",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.39/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "38eef94de4d842ba9a8b5a785fb197688994506861464c648d56eedf3448e232",
+          "size": 7398912
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.39/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "c6a4101522229b5df1bfa0ccade902855b8573bd4bc192f96e9d65fb06f5fac9",
+          "size": 8122112
+        }
+      }
+    },
+    {
+      "version": "1.38",
+      "date": "2025-05-05",
+      "tag": "renderdoc-v1.38",
+      "sourceZip": "https://renderdoc.org/stable/1.38/RenderDoc_1.38_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.38",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.38/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "792288934dc4e681cb8eb777cf853a41ffe512317c7b9595822ab6dff8c8f918",
+          "size": 7382132
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.38/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "0edba6a1c896d027fc54a84fb1edb162b2fdbcf79742e21f72ebc3e86b607447",
+          "size": 8097668
+        }
+      }
+    },
+    {
+      "version": "1.37",
+      "date": "2025-02-28",
+      "tag": "renderdoc-v1.37",
+      "sourceZip": "https://renderdoc.org/stable/1.37/RenderDoc_1.37_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.37",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.37/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "383b2d17adaa2d9106f18959ccc33bf798aa8b7dc9123947e7badd6513db741f",
+          "size": 7305019
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.37/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "2b9f837904a50f92b6d7046a2efaa5964ab6e31d099513b7a6066d1e72699654",
+          "size": 8017566
+        }
+      }
+    },
+    {
+      "version": "1.36",
+      "date": "2024-12-20",
+      "tag": "renderdoc-v1.36",
+      "sourceZip": "https://renderdoc.org/stable/1.36/RenderDoc_1.36_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.36",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.36/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "6751b11055cf8ad47f2310f3b69717f74b9983e4245423345d3eebbb72d5bebd",
+          "size": 7208714
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.36/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "6fcc4d94638bdb0390d756c3226d8cf3ae69ca1494151e20dd27a39067719951",
+          "size": 7913210
+        }
+      }
+    },
+    {
+      "version": "1.35",
+      "date": "2024-09-27",
+      "tag": "renderdoc-v1.35",
+      "sourceZip": "https://renderdoc.org/stable/1.35/RenderDoc_1.35_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.35",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.35/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "8f411b5214413d305df1767ec230eb05caa934627514f8c8c56f3cbd78ab7ddd",
+          "size": 7166643
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.35/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "98f3b398b2c8a7593b8c886511eb1101e79a8142fa45649f3dbe911062e68ee8",
+          "size": 7869754
+        }
+      }
+    }
+  ]
 }
-
