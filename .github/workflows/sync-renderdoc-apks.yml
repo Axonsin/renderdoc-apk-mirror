@@ -1,0 +1,35 @@
+name: Sync RenderDoc APKs
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Sync APK releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/sync_renderdoc_apks.py
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add renderdoc-apks.json
+          git diff --cached --quiet || git commit -m "Update RenderDoc APK manifest"
+          git push
+
