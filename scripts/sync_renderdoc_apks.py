@@ -173,6 +173,11 @@ def publish_release(repo: str, build: dict[str, str], apk_paths: dict[str, Path]
     return release_url
 
 
+def mark_latest_release(repo: str, version: str) -> None:
+    tag = f"renderdoc-v{version}"
+    run_gh(["release", "edit", tag, "--repo", repo, "--latest"])
+
+
 def build_manifest_entry(repo: str, build: dict[str, str], apk_paths: dict[str, Path]) -> dict[str, Any]:
     version = build["version"]
     tag = f"renderdoc-v{version}"
@@ -256,11 +261,14 @@ def sync(args: argparse.Namespace) -> int:
         return 0
 
     new_entries: list[dict[str, Any]] = []
-    for build in new_builds:
+    for build in sorted(new_builds, key=lambda item: version_key(item["version"])):
         with tempfile.TemporaryDirectory() as tmp:
             apk_paths = download_and_extract_build(build, Path(tmp))
             publish_release(repo, build, apk_paths)
             new_entries.append(build_manifest_entry(repo, build, apk_paths))
+
+    if new_entries:
+        mark_latest_release(repo, builds[0]["version"])
 
     manifest["latest"] = builds[0]["version"]
     manifest["lastCheckedAt"] = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
@@ -291,4 +299,3 @@ if __name__ == "__main__":
     except Exception as exc:
         print(f"error: {exc}", file=sys.stderr)
         raise SystemExit(1)
-
