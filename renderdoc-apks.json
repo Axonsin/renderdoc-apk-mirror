@@ -1,9 +1,30 @@
 {
   "schemaVersion": 1,
   "minimumVersion": "1.35",
-  "latest": "1.44",
-  "lastCheckedAt": "2026-06-29T04:35:03Z",
+  "latest": "1.45",
+  "lastCheckedAt": "2026-07-06T04:30:58Z",
   "versions": [
+    {
+      "version": "1.45",
+      "date": "2026-07-02",
+      "tag": "renderdoc-v1.45",
+      "sourceZip": "https://renderdoc.org/stable/1.45/RenderDoc_1.45_64.zip",
+      "releaseUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/tag/renderdoc-v1.45",
+      "files": {
+        "arm32": {
+          "name": "org.renderdoc.renderdoccmd.arm32.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.45/org.renderdoc.renderdoccmd.arm32.apk",
+          "sha256": "173a484eb6141091a1a0a97fda18de03553e0d4463294499f5ad8c856cbf2e44",
+          "size": 7809766
+        },
+        "arm64": {
+          "name": "org.renderdoc.renderdoccmd.arm64.apk",
+          "downloadUrl": "https://github.com/Axonsin/renderdoc-apk-mirror/releases/download/renderdoc-v1.45/org.renderdoc.renderdoccmd.arm64.apk",
+          "sha256": "cdf4c32582da36e37e1f226a47a488b1685ffb5c3cac006fa6187ede9f28b9f1",
+          "size": 8565636
+        }
+      }
+    },
     {
       "version": "1.44",
       "date": "2026-05-01",
